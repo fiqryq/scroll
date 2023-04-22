@@ -3,16 +3,81 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Vite Vanila App</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>Vite Vanila App || Scroll</title>
 </head>
 
 <body>
-  <button id="button">create text</button>
-  <p id="sometext"></p>
-  <script type="module" src="/main.js"></script>
+  <section class="section screen-height">
+    <h1 class="title">Scroll me</h1>
+    <div class="mouse-container">
+      <svg version="1.1" width="80px" height="80px" viewBox="30.5 -9.5 554 813"
+        enable-background="new 30.5 -9.5 554 813" xml:space="preserve">
+        <path d="M328,0h-44C271.68,0,42,5.28,42,242v308c0,9.9,3.96,242,242,242h44c13.86,0,242-6.16,242-242V242C570,232.1,566.04,0,328,0z
+          M526,550c0,191.62-177.76,198-198,198h-44C92.38,748,86,570.24,86,550V242C86,50.82,263.54,44,284,44h44
+          c191.62,0,198,177.76,198,198V550z" />
+        <circle cx="306" cy="231" r="45" />
+      </svg>
+    </div>
+  </section>
+
+  <section class="content-1">
+    <h1 class="title">Sample Title</h1>
+    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi iusto mollitia, doloremque
+      repudiandae iste
+      commodi impedit quia cupiditate, similique voluptates quidem officia soluta architecto voluptatibus pariatur quas
+      exercitationem corrupti porro? <span>This text will marked </span> Necessitatibus laudantium enim deserunt illo
+      quidem suscipit nostrum non qui,
+      voluptatem libero laboriosam labore iusto itaque nobis commodi cumque, hic quaerat totam! Aliquam delectus impedit
+      temporibus laboriosam aperiam omnis cum sequi officiis accusantium quae provident magni nostrum laudantium odit
+      minus, <span> Also this wierd text : consequatur praesentium explicabo reiciendis sint ratione vitae, sapiente
+        nihil architecto nam.
+        Pariatur
+        dolore, suscipit asperiores, </span> itaque magni consectetur deleniti laborum corporis, recusandae nostrum vel
+      aliquid.
+      Explicabo ipsum porro maxime maiores!</p>
+  </section>
+
+  <div class="container-horizontal-view">
+    <section class="horizontal-wrapper">
+      <section class="child-horizontal-view">
+        <h1 class="title">Horizontal Scroll</h1>
+      </section>
+      <section class="child-horizontal-view">
+        <h1 class="title">Horizontal Scroll</h1>
+      </section>
+      <section class="child-horizontal-view">
+        <h1 class="title">Horizontal Scroll</h1>
+      </section>
+    </section>
+  </div>
+
+  <section class="section screen-height">
+    <h1 class="title">Gallery Time</h1>
+  </section>
+
+  <section class="section">
+    <div class="grid-container">
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+      <div class="img"></div>
+    </div>
+  </section>
+
+  <section class="bottom">
+    <h1 class="title ">This is bottom of site</h1>
+  </section>
+
+  <script type="module" src="lenis.js"></script>
+  <script type="module" src="main.js"></script>
 </body>
 
 </html>
